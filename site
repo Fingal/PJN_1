@@ -1,0 +1,2386 @@
+<html><head>
+<title>Atomic Weights and Isotopic Compositions for All Elements</title>
+<script language="JavaScript">
+<!--
+// Browser detection
+var useScript = false;
+if (document.images) {useScript = true;};
+
+// browserName = navigator.appName;
+// browserVer = parseInt(navigator.appVersion);
+// if((browserName == "Netscape" && browserVer >= 3)||
+//         (browserName == "Microsoft Internet Explorer" && browserVer> = 4)) version = "n3";
+// else version="n2";
+
+if (useScript)
+ { Comp_Mainon = new Image();
+   Comp_Mainon.src = "/PhysRefData/Compositions/main_.gif";
+
+   Comp_Mainoff = new Image();
+   Comp_Mainoff.src = "/PhysRefData/Compositions/main.gif";
+  
+ }
+
+function img_act(imgName)
+ { if(useScript)
+    { document.images[imgName].src = eval(imgName+"on.src"); }
+ }
+        
+function img_inact(imgName)
+ { if(useScript)
+    { document.images[imgName].src = eval(imgName+"off.src"); }
+ }
+//-->
+</script>
+<script language="JavaScript" id="_fed_an_js_tag" src="/js/federated-analytics.all.min.js?agency=NIST&amp;subagency=pml&amp;pua=UA-37115410-46&amp;yt=true"></script></head>
+<body bgcolor="#FFFFFF">
+<center><font face="Futura Md BT,Arial,Helvetica,Times" size="+1"><b>Atomic Weights and Isotopic Compositions for All Elements</b></font></center>
+<center>
+<table style="font-family: Serif;" border="0">
+<thead>
+<tr>
+<th colspan="3" scope="col" valign="bottom"><font size=""><a href="http://nist.gov/pml/data/comp-notes.cfm#iso">Isotope</a></font></th>
+<th rowspan="2" scope="col" bgcolor="#FFFFFF" width="5"><font size="0"></font></th>
+<th scope="col" valign="bottom"><a href="http://nist.gov/pml/data/comp-notes.cfm#relative">Relative<br>Atomic Mass</a></th>
+<th rowspan="2" scope="col" bgcolor="#3377EE" width="2"><font size="0"></font></th>
+<th scope="col" valign="bottom"><a href="http://nist.gov/pml/data/comp-notes.cfm#comp">Isotopic</a><br><a href="http://nist.gov/pml/data/comp-notes.cfm#comp">Composition</a></th>
+<th scope="col" valign="bottom"><a href="http://nist.gov/pml/data/comp-notes.cfm#weight">Standard<br>Atomic Weight</a></th>
+<th scope="col" valign="bottom"><a href="http://nist.gov/pml/data/comp-notes.cfm#notes">Notes</a></th>
+</tr>
+<tr></tr>
+</thead><tbody>
+<tr bgcolor="#3377EE"><td colspan="9"><img src="/Images/dot_t.gif" alt="" height="2"></td></tr>
+<tr><td colspan="3"></td>
+<td rowspan="4000" width="5"></td>
+<td></td>
+<td rowspan="4000" bgcolor="#3377EE" width="2"><font size="0"></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 1 </td>
+<td align="center"> H </td>
+<td align="right"> 1 </td>
+<td> 1.00782503223(9) </td>
+<td>0.999885(70) </td>
+<td>[1.00784,1.00811] </td>
+<td align="center"> m </td>
+</tr>
+<tr>
+<td align="center"> D </td>
+<td align="right"> 2 </td>
+<td> 2.01410177812(12) </td>
+<td>0.000115(70) </td>
+</tr>
+<tr>
+<td align="center"> T </td>
+<td align="right"> 3 </td>
+<td> 3.0160492779(24) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 2 </td>
+<td rowspan="2" align="center" valign="top"> He </td>
+<td align="right"> 3 </td>
+<td> 3.0160293201(25) </td>
+<td>0.00000134(3) </td>
+<td>4.002602(2) </td>
+<td align="center"> g,r </td>
+</tr>
+<tr>
+<td align="right"> 4 </td>
+<td> 4.00260325413(6) </td>
+<td>0.99999866(3) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 3 </td>
+<td rowspan="2" align="center" valign="top"> Li </td>
+<td align="right"> 6 </td>
+<td> 6.0151228874(16) </td>
+<td>0.0759(4) </td>
+<td>[6.938,6.997] </td>
+<td align="center"> m </td>
+</tr>
+<tr>
+<td align="right"> 7 </td>
+<td> 7.0160034366(45) </td>
+<td>0.9241(4) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 4 </td>
+<td rowspan="1" align="center" valign="top"> Be </td>
+<td align="right"> 9 </td>
+<td> 9.012183065(82) </td>
+<td>1 </td>
+<td>9.0121831(5) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 5 </td>
+<td rowspan="2" align="center" valign="top"> B </td>
+<td align="right"> 10 </td>
+<td> 10.01293695(41) </td>
+<td>0.199(7) </td>
+<td>[10.806,10.821] </td>
+<td align="center"> m </td>
+</tr>
+<tr>
+<td align="right"> 11 </td>
+<td> 11.00930536(45) </td>
+<td>0.801(7) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 6 </td>
+<td rowspan="3" align="center" valign="top"> C </td>
+<td align="right"> 12 </td>
+<td> 12.0000000(00) </td>
+<td>0.9893(8) </td>
+<td>[12.0096,12.0116] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 13 </td>
+<td> 13.00335483507(23) </td>
+<td>0.0107(8) </td>
+</tr>
+<tr>
+<td align="right"> 14 </td>
+<td> 14.0032419884(40) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 7 </td>
+<td rowspan="2" align="center" valign="top"> N </td>
+<td align="right"> 14 </td>
+<td> 14.00307400443(20) </td>
+<td>0.99636(20) </td>
+<td>[14.00643,14.00728] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 15 </td>
+<td> 15.00010889888(64) </td>
+<td>0.00364(20) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 8 </td>
+<td rowspan="3" align="center" valign="top"> O </td>
+<td align="right"> 16 </td>
+<td> 15.99491461957(17) </td>
+<td>0.99757(16) </td>
+<td>[15.99903,15.99977] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 17 </td>
+<td> 16.99913175650(69) </td>
+<td>0.00038(1) </td>
+</tr>
+<tr>
+<td align="right"> 18 </td>
+<td> 17.99915961286(76) </td>
+<td>0.00205(14) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 9 </td>
+<td rowspan="1" align="center" valign="top"> F </td>
+<td align="right"> 19 </td>
+<td> 18.99840316273(92) </td>
+<td>1 </td>
+<td>18.998403163(6) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 10 </td>
+<td rowspan="3" align="center" valign="top"> Ne </td>
+<td align="right"> 20 </td>
+<td> 19.9924401762(17) </td>
+<td>0.9048(3) </td>
+<td>20.1797(6) </td>
+<td align="center"> g,m </td>
+</tr>
+<tr>
+<td align="right"> 21 </td>
+<td> 20.993846685(41) </td>
+<td>0.0027(1) </td>
+</tr>
+<tr>
+<td align="right"> 22 </td>
+<td> 21.991385114(18) </td>
+<td>0.0925(3) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 11 </td>
+<td rowspan="1" align="center" valign="top"> Na </td>
+<td align="right"> 23 </td>
+<td> 22.9897692820(19) </td>
+<td>1 </td>
+<td>22.98976928(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 12 </td>
+<td rowspan="3" align="center" valign="top"> Mg </td>
+<td align="right"> 24 </td>
+<td> 23.985041697(14) </td>
+<td>0.7899(4) </td>
+<td>[24.304,24.307] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 25 </td>
+<td> 24.985836976(50) </td>
+<td>0.1000(1) </td>
+</tr>
+<tr>
+<td align="right"> 26 </td>
+<td> 25.982592968(31) </td>
+<td>0.1101(3) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 13 </td>
+<td rowspan="1" align="center" valign="top"> Al </td>
+<td align="right"> 27 </td>
+<td> 26.98153853(11) </td>
+<td>1 </td>
+<td>26.9815385(7) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 14 </td>
+<td rowspan="3" align="center" valign="top"> Si </td>
+<td align="right"> 28 </td>
+<td> 27.97692653465(44) </td>
+<td>0.92223(19) </td>
+<td>[28.084,28.086] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 29 </td>
+<td> 28.97649466490(52) </td>
+<td>0.04685(8) </td>
+</tr>
+<tr>
+<td align="right"> 30 </td>
+<td> 29.973770136(23) </td>
+<td>0.03092(11) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 15 </td>
+<td rowspan="1" align="center" valign="top"> P </td>
+<td align="right"> 31 </td>
+<td> 30.97376199842(70) </td>
+<td>1 </td>
+<td>30.973761998(5) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 16 </td>
+<td rowspan="4" align="center" valign="top"> S </td>
+<td align="right"> 32 </td>
+<td> 31.9720711744(14) </td>
+<td>0.9499(26) </td>
+<td>[32.059,32.076] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 33 </td>
+<td> 32.9714589098(15) </td>
+<td>0.0075(2) </td>
+</tr>
+<tr>
+<td align="right"> 34 </td>
+<td> 33.967867004(47) </td>
+<td>0.0425(24) </td>
+</tr>
+<tr>
+<td align="right"> 36 </td>
+<td> 35.96708071(20) </td>
+<td>0.0001(1) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 17 </td>
+<td rowspan="2" align="center" valign="top"> Cl </td>
+<td align="right"> 35 </td>
+<td> 34.968852682(37) </td>
+<td>0.7576(10) </td>
+<td>[35.446,35.457] </td>
+<td align="center"> m </td>
+</tr>
+<tr>
+<td align="right"> 37 </td>
+<td> 36.965902602(55) </td>
+<td>0.2424(10) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 18 </td>
+<td rowspan="3" align="center" valign="top"> Ar </td>
+<td align="right"> 36 </td>
+<td> 35.967545105(28) </td>
+<td>0.003336(21) </td>
+<td>39.948(1) </td>
+<td align="center"> g,r </td>
+</tr>
+<tr>
+<td align="right"> 38 </td>
+<td> 37.96273211(21) </td>
+<td>0.000629(7) </td>
+</tr>
+<tr>
+<td align="right"> 40 </td>
+<td> 39.9623831237(24) </td>
+<td>0.996035(25) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 19 </td>
+<td rowspan="3" align="center" valign="top"> K </td>
+<td align="right"> 39 </td>
+<td> 38.9637064864(49) </td>
+<td>0.932581(44) </td>
+<td>39.0983(1) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 40 </td>
+<td> 39.963998166(60) </td>
+<td>0.000117(1) </td>
+</tr>
+<tr>
+<td align="right"> 41 </td>
+<td> 40.9618252579(41) </td>
+<td>0.067302(44) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 20 </td>
+<td rowspan="6" align="center" valign="top"> Ca </td>
+<td align="right"> 40 </td>
+<td> 39.962590863(22) </td>
+<td>0.96941(156) </td>
+<td>40.078(4) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 42 </td>
+<td> 41.95861783(16) </td>
+<td>0.00647(23) </td>
+</tr>
+<tr>
+<td align="right"> 43 </td>
+<td> 42.95876644(24) </td>
+<td>0.00135(10) </td>
+</tr>
+<tr>
+<td align="right"> 44 </td>
+<td> 43.95548156(35) </td>
+<td>0.02086(110) </td>
+</tr>
+<tr>
+<td align="right"> 46 </td>
+<td> 45.9536890(24) </td>
+<td>0.00004(3) </td>
+</tr>
+<tr>
+<td align="right"> 48 </td>
+<td> 47.95252276(13) </td>
+<td>0.00187(21) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 21 </td>
+<td rowspan="1" align="center" valign="top"> Sc </td>
+<td align="right"> 45 </td>
+<td> 44.95590828(77) </td>
+<td>1 </td>
+<td>44.955908(5) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="5" align="right" valign="top"> 22 </td>
+<td rowspan="5" align="center" valign="top"> Ti </td>
+<td align="right"> 46 </td>
+<td> 45.95262772(35) </td>
+<td>0.0825(3) </td>
+<td>47.867(1) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 47 </td>
+<td> 46.95175879(38) </td>
+<td>0.0744(2) </td>
+</tr>
+<tr>
+<td align="right"> 48 </td>
+<td> 47.94794198(38) </td>
+<td>0.7372(3) </td>
+</tr>
+<tr>
+<td align="right"> 49 </td>
+<td> 48.94786568(39) </td>
+<td>0.0541(2) </td>
+</tr>
+<tr>
+<td align="right"> 50 </td>
+<td> 49.94478689(39) </td>
+<td>0.0518(2) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 23 </td>
+<td rowspan="2" align="center" valign="top"> V </td>
+<td align="right"> 50 </td>
+<td> 49.94715601(95) </td>
+<td>0.00250(4) </td>
+<td>50.9415(1) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 51 </td>
+<td> 50.94395704(94) </td>
+<td>0.99750(4) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 24 </td>
+<td rowspan="4" align="center" valign="top"> Cr </td>
+<td align="right"> 50 </td>
+<td> 49.94604183(94) </td>
+<td>0.04345(13) </td>
+<td>51.9961(6) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 52 </td>
+<td> 51.94050623(63) </td>
+<td>0.83789(18) </td>
+</tr>
+<tr>
+<td align="right"> 53 </td>
+<td> 52.94064815(62) </td>
+<td>0.09501(17) </td>
+</tr>
+<tr>
+<td align="right"> 54 </td>
+<td> 53.93887916(61) </td>
+<td>0.02365(7) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 25 </td>
+<td rowspan="1" align="center" valign="top"> Mn </td>
+<td align="right"> 55 </td>
+<td> 54.93804391(48) </td>
+<td>1 </td>
+<td>54.938044(3) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 26 </td>
+<td rowspan="4" align="center" valign="top"> Fe </td>
+<td align="right"> 54 </td>
+<td> 53.93960899(53) </td>
+<td>0.05845(35) </td>
+<td>55.845(2) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 56 </td>
+<td> 55.93493633(49) </td>
+<td>0.91754(36) </td>
+</tr>
+<tr>
+<td align="right"> 57 </td>
+<td> 56.93539284(49) </td>
+<td>0.02119(10) </td>
+</tr>
+<tr>
+<td align="right"> 58 </td>
+<td> 57.93327443(53) </td>
+<td>0.00282(4) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 27 </td>
+<td rowspan="1" align="center" valign="top"> Co </td>
+<td align="right"> 59 </td>
+<td> 58.93319429(56) </td>
+<td>1 </td>
+<td>58.933194(4) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="5" align="right" valign="top"> 28 </td>
+<td rowspan="5" align="center" valign="top"> Ni </td>
+<td align="right"> 58 </td>
+<td> 57.93534241(52) </td>
+<td>0.68077(19) </td>
+<td>58.6934(4) </td>
+<td align="center"> r </td>
+</tr>
+<tr>
+<td align="right"> 60 </td>
+<td> 59.93078588(52) </td>
+<td>0.26223(15) </td>
+</tr>
+<tr>
+<td align="right"> 61 </td>
+<td> 60.93105557(52) </td>
+<td>0.011399(13) </td>
+</tr>
+<tr>
+<td align="right"> 62 </td>
+<td> 61.92834537(55) </td>
+<td>0.036346(40) </td>
+</tr>
+<tr>
+<td align="right"> 64 </td>
+<td> 63.92796682(58) </td>
+<td>0.009255(19) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 29 </td>
+<td rowspan="2" align="center" valign="top"> Cu </td>
+<td align="right"> 63 </td>
+<td> 62.92959772(56) </td>
+<td>0.6915(15) </td>
+<td>63.546(3) </td>
+<td align="center"> r </td>
+</tr>
+<tr>
+<td align="right"> 65 </td>
+<td> 64.92778970(71) </td>
+<td>0.3085(15) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="5" align="right" valign="top"> 30 </td>
+<td rowspan="5" align="center" valign="top"> Zn </td>
+<td align="right"> 64 </td>
+<td> 63.92914201(71) </td>
+<td>0.4917(75) </td>
+<td>65.38(2) </td>
+<td align="center"> r </td>
+</tr>
+<tr>
+<td align="right"> 66 </td>
+<td> 65.92603381(94) </td>
+<td>0.2773(98) </td>
+</tr>
+<tr>
+<td align="right"> 67 </td>
+<td> 66.92712775(96) </td>
+<td>0.0404(16) </td>
+</tr>
+<tr>
+<td align="right"> 68 </td>
+<td> 67.92484455(98) </td>
+<td>0.1845(63) </td>
+</tr>
+<tr>
+<td align="right"> 70 </td>
+<td> 69.9253192(21) </td>
+<td>0.0061(10) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 31 </td>
+<td rowspan="2" align="center" valign="top"> Ga </td>
+<td align="right"> 69 </td>
+<td> 68.9255735(13) </td>
+<td>0.60108(9) </td>
+<td>69.723(1) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 71 </td>
+<td> 70.92470258(87) </td>
+<td>0.39892(9) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="5" align="right" valign="top"> 32 </td>
+<td rowspan="5" align="center" valign="top"> Ge </td>
+<td align="right"> 70 </td>
+<td> 69.92424875(90) </td>
+<td>0.2057(27) </td>
+<td>72.630(8) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 72 </td>
+<td> 71.922075826(81) </td>
+<td>0.2745(32) </td>
+</tr>
+<tr>
+<td align="right"> 73 </td>
+<td> 72.923458956(61) </td>
+<td>0.0775(12) </td>
+</tr>
+<tr>
+<td align="right"> 74 </td>
+<td> 73.921177761(13) </td>
+<td>0.3650(20) </td>
+</tr>
+<tr>
+<td align="right"> 76 </td>
+<td> 75.921402726(19) </td>
+<td>0.0773(12) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 33 </td>
+<td rowspan="1" align="center" valign="top"> As </td>
+<td align="right"> 75 </td>
+<td> 74.92159457(95) </td>
+<td>1 </td>
+<td>74.921595(6) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 34 </td>
+<td rowspan="6" align="center" valign="top"> Se </td>
+<td align="right"> 74 </td>
+<td> 73.922475934(15) </td>
+<td>0.0089(4) </td>
+<td>78.971(8) </td>
+<td align="center"> r </td>
+</tr>
+<tr>
+<td align="right"> 76 </td>
+<td> 75.919213704(17) </td>
+<td>0.0937(29) </td>
+</tr>
+<tr>
+<td align="right"> 77 </td>
+<td> 76.919914154(67) </td>
+<td>0.0763(16) </td>
+</tr>
+<tr>
+<td align="right"> 78 </td>
+<td> 77.91730928(20) </td>
+<td>0.2377(28) </td>
+</tr>
+<tr>
+<td align="right"> 80 </td>
+<td> 79.9165218(13) </td>
+<td>0.4961(41) </td>
+</tr>
+<tr>
+<td align="right"> 82 </td>
+<td> 81.9166995(15) </td>
+<td>0.0873(22) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 35 </td>
+<td rowspan="2" align="center" valign="top"> Br </td>
+<td align="right"> 79 </td>
+<td> 78.9183376(14) </td>
+<td>0.5069(7) </td>
+<td>[79.901,79.907] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 81 </td>
+<td> 80.9162897(14) </td>
+<td>0.4931(7) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 36 </td>
+<td rowspan="6" align="center" valign="top"> Kr </td>
+<td align="right"> 78 </td>
+<td> 77.92036494(76) </td>
+<td>0.00355(3) </td>
+<td>83.798(2) </td>
+<td align="center"> g,m </td>
+</tr>
+<tr>
+<td align="right"> 80 </td>
+<td> 79.91637808(75) </td>
+<td>0.02286(10) </td>
+</tr>
+<tr>
+<td align="right"> 82 </td>
+<td> 81.91348273(94) </td>
+<td>0.11593(31) </td>
+</tr>
+<tr>
+<td align="right"> 83 </td>
+<td> 82.91412716(32) </td>
+<td>0.11500(19) </td>
+</tr>
+<tr>
+<td align="right"> 84 </td>
+<td> 83.9114977282(44) </td>
+<td>0.56987(15) </td>
+</tr>
+<tr>
+<td align="right"> 86 </td>
+<td> 85.9106106269(41) </td>
+<td>0.17279(41) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 37 </td>
+<td rowspan="2" align="center" valign="top"> Rb </td>
+<td align="right"> 85 </td>
+<td> 84.9117897379(54) </td>
+<td>0.7217(2) </td>
+<td>85.4678(3) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 87 </td>
+<td> 86.9091805310(60) </td>
+<td>0.2783(2) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 38 </td>
+<td rowspan="4" align="center" valign="top"> Sr </td>
+<td align="right"> 84 </td>
+<td> 83.9134191(13) </td>
+<td>0.0056(1) </td>
+<td>87.62(1) </td>
+<td align="center"> g,r </td>
+</tr>
+<tr>
+<td align="right"> 86 </td>
+<td> 85.9092606(12) </td>
+<td>0.0986(1) </td>
+</tr>
+<tr>
+<td align="right"> 87 </td>
+<td> 86.9088775(12) </td>
+<td>0.0700(1) </td>
+</tr>
+<tr>
+<td align="right"> 88 </td>
+<td> 87.9056125(12) </td>
+<td>0.8258(1) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 39 </td>
+<td rowspan="1" align="center" valign="top"> Y </td>
+<td align="right"> 89 </td>
+<td> 88.9058403(24) </td>
+<td>1 </td>
+<td>88.90584(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="5" align="right" valign="top"> 40 </td>
+<td rowspan="5" align="center" valign="top"> Zr </td>
+<td align="right"> 90 </td>
+<td> 89.9046977(20) </td>
+<td>0.5145(40) </td>
+<td>91.224(2) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 91 </td>
+<td> 90.9056396(20) </td>
+<td>0.1122(5) </td>
+</tr>
+<tr>
+<td align="right"> 92 </td>
+<td> 91.9050347(20) </td>
+<td>0.1715(8) </td>
+</tr>
+<tr>
+<td align="right"> 94 </td>
+<td> 93.9063108(20) </td>
+<td>0.1738(28) </td>
+</tr>
+<tr>
+<td align="right"> 96 </td>
+<td> 95.9082714(21) </td>
+<td>0.0280(9) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 41 </td>
+<td rowspan="1" align="center" valign="top"> Nb </td>
+<td align="right"> 93 </td>
+<td> 92.9063730(20) </td>
+<td>1 </td>
+<td>92.90637(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 42 </td>
+<td rowspan="7" align="center" valign="top"> Mo </td>
+<td align="right"> 92 </td>
+<td> 91.90680796(84) </td>
+<td>0.1453(30) </td>
+<td>95.95(1) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 94 </td>
+<td> 93.90508490(48) </td>
+<td>0.0915(9) </td>
+</tr>
+<tr>
+<td align="right"> 95 </td>
+<td> 94.90583877(47) </td>
+<td>0.1584(11) </td>
+</tr>
+<tr>
+<td align="right"> 96 </td>
+<td> 95.90467612(47) </td>
+<td>0.1667(15) </td>
+</tr>
+<tr>
+<td align="right"> 97 </td>
+<td> 96.90601812(49) </td>
+<td>0.0960(14) </td>
+</tr>
+<tr>
+<td align="right"> 98 </td>
+<td> 97.90540482(49) </td>
+<td>0.2439(37) </td>
+</tr>
+<tr>
+<td align="right"> 100 </td>
+<td> 99.9074718(11) </td>
+<td>0.0982(31) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 43 </td>
+<td rowspan="3" align="center" valign="top"> Tc </td>
+<td align="right"> 97 </td>
+<td> 96.9063667(40) </td>
+<td> </td>
+<td>[98] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 98 </td>
+<td> 97.9072124(36) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 99 </td>
+<td> 98.9062508(10) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 44 </td>
+<td rowspan="7" align="center" valign="top"> Ru </td>
+<td align="right"> 96 </td>
+<td> 95.90759025(49) </td>
+<td>0.0554(14) </td>
+<td>101.07(2) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 98 </td>
+<td> 97.9052868(69) </td>
+<td>0.0187(3) </td>
+</tr>
+<tr>
+<td align="right"> 99 </td>
+<td> 98.9059341(11) </td>
+<td>0.1276(14) </td>
+</tr>
+<tr>
+<td align="right"> 100 </td>
+<td> 99.9042143(11) </td>
+<td>0.1260(7) </td>
+</tr>
+<tr>
+<td align="right"> 101 </td>
+<td> 100.9055769(12) </td>
+<td>0.1706(2) </td>
+</tr>
+<tr>
+<td align="right"> 102 </td>
+<td> 101.9043441(12) </td>
+<td>0.3155(14) </td>
+</tr>
+<tr>
+<td align="right"> 104 </td>
+<td> 103.9054275(28) </td>
+<td>0.1862(27) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 45 </td>
+<td rowspan="1" align="center" valign="top"> Rh </td>
+<td align="right"> 103 </td>
+<td> 102.9054980(26) </td>
+<td>1 </td>
+<td>102.90550(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 46 </td>
+<td rowspan="6" align="center" valign="top"> Pd </td>
+<td align="right"> 102 </td>
+<td> 101.9056022(28) </td>
+<td>0.0102(1) </td>
+<td>106.42(1) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 104 </td>
+<td> 103.9040305(14) </td>
+<td>0.1114(8) </td>
+</tr>
+<tr>
+<td align="right"> 105 </td>
+<td> 104.9050796(12) </td>
+<td>0.2233(8) </td>
+</tr>
+<tr>
+<td align="right"> 106 </td>
+<td> 105.9034804(12) </td>
+<td>0.2733(3) </td>
+</tr>
+<tr>
+<td align="right"> 108 </td>
+<td> 107.9038916(12) </td>
+<td>0.2646(9) </td>
+</tr>
+<tr>
+<td align="right"> 110 </td>
+<td> 109.90517220(75) </td>
+<td>0.1172(9) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 47 </td>
+<td rowspan="2" align="center" valign="top"> Ag </td>
+<td align="right"> 107 </td>
+<td> 106.9050916(26) </td>
+<td>0.51839(8) </td>
+<td>107.8682(2) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 109 </td>
+<td> 108.9047553(14) </td>
+<td>0.48161(8) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="8" align="right" valign="top"> 48 </td>
+<td rowspan="8" align="center" valign="top"> Cd </td>
+<td align="right"> 106 </td>
+<td> 105.9064599(12) </td>
+<td>0.0125(6) </td>
+<td>112.414(4) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 108 </td>
+<td> 107.9041834(12) </td>
+<td>0.0089(3) </td>
+</tr>
+<tr>
+<td align="right"> 110 </td>
+<td> 109.90300661(61) </td>
+<td>0.1249(18) </td>
+</tr>
+<tr>
+<td align="right"> 111 </td>
+<td> 110.90418287(61) </td>
+<td>0.1280(12) </td>
+</tr>
+<tr>
+<td align="right"> 112 </td>
+<td> 111.90276287(60) </td>
+<td>0.2413(21) </td>
+</tr>
+<tr>
+<td align="right"> 113 </td>
+<td> 112.90440813(45) </td>
+<td>0.1222(12) </td>
+</tr>
+<tr>
+<td align="right"> 114 </td>
+<td> 113.90336509(43) </td>
+<td>0.2873(42) </td>
+</tr>
+<tr>
+<td align="right"> 116 </td>
+<td> 115.90476315(17) </td>
+<td>0.0749(18) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 49 </td>
+<td rowspan="2" align="center" valign="top"> In </td>
+<td align="right"> 113 </td>
+<td> 112.90406184(91) </td>
+<td>0.0429(5) </td>
+<td>114.818(1) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 115 </td>
+<td> 114.903878776(12) </td>
+<td>0.9571(5) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="10" align="right" valign="top"> 50 </td>
+<td rowspan="10" align="center" valign="top"> Sn </td>
+<td align="right"> 112 </td>
+<td> 111.90482387(61) </td>
+<td>0.0097(1) </td>
+<td>118.710(7) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 114 </td>
+<td> 113.9027827(10) </td>
+<td>0.0066(1) </td>
+</tr>
+<tr>
+<td align="right"> 115 </td>
+<td> 114.903344699(16) </td>
+<td>0.0034(1) </td>
+</tr>
+<tr>
+<td align="right"> 116 </td>
+<td> 115.90174280(10) </td>
+<td>0.1454(9) </td>
+</tr>
+<tr>
+<td align="right"> 117 </td>
+<td> 116.90295398(52) </td>
+<td>0.0768(7) </td>
+</tr>
+<tr>
+<td align="right"> 118 </td>
+<td> 117.90160657(54) </td>
+<td>0.2422(9) </td>
+</tr>
+<tr>
+<td align="right"> 119 </td>
+<td> 118.90331117(78) </td>
+<td>0.0859(4) </td>
+</tr>
+<tr>
+<td align="right"> 120 </td>
+<td> 119.90220163(97) </td>
+<td>0.3258(9) </td>
+</tr>
+<tr>
+<td align="right"> 122 </td>
+<td> 121.9034438(26) </td>
+<td>0.0463(3) </td>
+</tr>
+<tr>
+<td align="right"> 124 </td>
+<td> 123.9052766(11) </td>
+<td>0.0579(5) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 51 </td>
+<td rowspan="2" align="center" valign="top"> Sb </td>
+<td align="right"> 121 </td>
+<td> 120.9038120(30) </td>
+<td>0.5721(5) </td>
+<td>121.760(1) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 123 </td>
+<td> 122.9042132(23) </td>
+<td>0.4279(5) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="8" align="right" valign="top"> 52 </td>
+<td rowspan="8" align="center" valign="top"> Te </td>
+<td align="right"> 120 </td>
+<td> 119.9040593(33) </td>
+<td>0.0009(1) </td>
+<td>127.60(3) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 122 </td>
+<td> 121.9030435(16) </td>
+<td>0.0255(12) </td>
+</tr>
+<tr>
+<td align="right"> 123 </td>
+<td> 122.9042698(16) </td>
+<td>0.0089(3) </td>
+</tr>
+<tr>
+<td align="right"> 124 </td>
+<td> 123.9028171(16) </td>
+<td>0.0474(14) </td>
+</tr>
+<tr>
+<td align="right"> 125 </td>
+<td> 124.9044299(16) </td>
+<td>0.0707(15) </td>
+</tr>
+<tr>
+<td align="right"> 126 </td>
+<td> 125.9033109(16) </td>
+<td>0.1884(25) </td>
+</tr>
+<tr>
+<td align="right"> 128 </td>
+<td> 127.90446128(93) </td>
+<td>0.3174(8) </td>
+</tr>
+<tr>
+<td align="right"> 130 </td>
+<td> 129.906222748(12) </td>
+<td>0.3408(62) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 53 </td>
+<td rowspan="1" align="center" valign="top"> I </td>
+<td align="right"> 127 </td>
+<td> 126.9044719(39) </td>
+<td>1 </td>
+<td>126.90447(3) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="9" align="right" valign="top"> 54 </td>
+<td rowspan="9" align="center" valign="top"> Xe </td>
+<td align="right"> 124 </td>
+<td> 123.9058920(19) </td>
+<td>0.000952(3) </td>
+<td>131.293(6) </td>
+<td align="center"> g,m </td>
+</tr>
+<tr>
+<td align="right"> 126 </td>
+<td> 125.9042983(38) </td>
+<td>0.000890(2) </td>
+</tr>
+<tr>
+<td align="right"> 128 </td>
+<td> 127.9035310(11) </td>
+<td>0.019102(8) </td>
+</tr>
+<tr>
+<td align="right"> 129 </td>
+<td> 128.9047808611(60) </td>
+<td>0.264006(82) </td>
+</tr>
+<tr>
+<td align="right"> 130 </td>
+<td> 129.903509349(10) </td>
+<td>0.040710(13) </td>
+</tr>
+<tr>
+<td align="right"> 131 </td>
+<td> 130.90508406(24) </td>
+<td>0.212324(30) </td>
+</tr>
+<tr>
+<td align="right"> 132 </td>
+<td> 131.9041550856(56) </td>
+<td>0.269086(33) </td>
+</tr>
+<tr>
+<td align="right"> 134 </td>
+<td> 133.90539466(90) </td>
+<td>0.104357(21) </td>
+</tr>
+<tr>
+<td align="right"> 136 </td>
+<td> 135.907214484(11) </td>
+<td>0.088573(44) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 55 </td>
+<td rowspan="1" align="center" valign="top"> Cs </td>
+<td align="right"> 133 </td>
+<td> 132.9054519610(80) </td>
+<td>1 </td>
+<td>132.90545196(6) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 56 </td>
+<td rowspan="7" align="center" valign="top"> Ba </td>
+<td align="right"> 130 </td>
+<td> 129.9063207(28) </td>
+<td>0.00106(1) </td>
+<td>137.327(7) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 132 </td>
+<td> 131.9050611(11) </td>
+<td>0.00101(1) </td>
+</tr>
+<tr>
+<td align="right"> 134 </td>
+<td> 133.90450818(30) </td>
+<td>0.02417(18) </td>
+</tr>
+<tr>
+<td align="right"> 135 </td>
+<td> 134.90568838(29) </td>
+<td>0.06592(12) </td>
+</tr>
+<tr>
+<td align="right"> 136 </td>
+<td> 135.90457573(29) </td>
+<td>0.07854(24) </td>
+</tr>
+<tr>
+<td align="right"> 137 </td>
+<td> 136.90582714(30) </td>
+<td>0.11232(24) </td>
+</tr>
+<tr>
+<td align="right"> 138 </td>
+<td> 137.90524700(31) </td>
+<td>0.71698(42) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 57 </td>
+<td rowspan="2" align="center" valign="top"> La </td>
+<td align="right"> 138 </td>
+<td> 137.9071149(37) </td>
+<td>0.0008881(71) </td>
+<td>138.90547(7) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 139 </td>
+<td> 138.9063563(24) </td>
+<td>0.9991119(71) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 58 </td>
+<td rowspan="4" align="center" valign="top"> Ce </td>
+<td align="right"> 136 </td>
+<td> 135.90712921(41) </td>
+<td>0.00185(2) </td>
+<td>140.116(1) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 138 </td>
+<td> 137.905991(11) </td>
+<td>0.00251(2) </td>
+</tr>
+<tr>
+<td align="right"> 140 </td>
+<td> 139.9054431(23) </td>
+<td>0.88450(51) </td>
+</tr>
+<tr>
+<td align="right"> 142 </td>
+<td> 141.9092504(29) </td>
+<td>0.11114(51) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 59 </td>
+<td rowspan="1" align="center" valign="top"> Pr </td>
+<td align="right"> 141 </td>
+<td> 140.9076576(23) </td>
+<td>1 </td>
+<td>140.90766(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 60 </td>
+<td rowspan="7" align="center" valign="top"> Nd </td>
+<td align="right"> 142 </td>
+<td> 141.9077290(20) </td>
+<td>0.27152(40) </td>
+<td>144.242(3) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 143 </td>
+<td> 142.9098200(20) </td>
+<td>0.12174(26) </td>
+</tr>
+<tr>
+<td align="right"> 144 </td>
+<td> 143.9100930(20) </td>
+<td>0.23798(19) </td>
+</tr>
+<tr>
+<td align="right"> 145 </td>
+<td> 144.9125793(20) </td>
+<td>0.08293(12) </td>
+</tr>
+<tr>
+<td align="right"> 146 </td>
+<td> 145.9131226(20) </td>
+<td>0.17189(32) </td>
+</tr>
+<tr>
+<td align="right"> 148 </td>
+<td> 147.9168993(26) </td>
+<td>0.05756(21) </td>
+</tr>
+<tr>
+<td align="right"> 150 </td>
+<td> 149.9209022(18) </td>
+<td>0.05638(28) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 61 </td>
+<td rowspan="2" align="center" valign="top"> Pm </td>
+<td align="right"> 145 </td>
+<td> 144.9127559(33) </td>
+<td> </td>
+<td>[145] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 147 </td>
+<td> 146.9151450(19) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 62 </td>
+<td rowspan="7" align="center" valign="top"> Sm </td>
+<td align="right"> 144 </td>
+<td> 143.9120065(21) </td>
+<td>0.0307(7) </td>
+<td>150.36(2) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 147 </td>
+<td> 146.9149044(19) </td>
+<td>0.1499(18) </td>
+</tr>
+<tr>
+<td align="right"> 148 </td>
+<td> 147.9148292(19) </td>
+<td>0.1124(10) </td>
+</tr>
+<tr>
+<td align="right"> 149 </td>
+<td> 148.9171921(18) </td>
+<td>0.1382(7) </td>
+</tr>
+<tr>
+<td align="right"> 150 </td>
+<td> 149.9172829(18) </td>
+<td>0.0738(1) </td>
+</tr>
+<tr>
+<td align="right"> 152 </td>
+<td> 151.9197397(18) </td>
+<td>0.2675(16) </td>
+</tr>
+<tr>
+<td align="right"> 154 </td>
+<td> 153.9222169(20) </td>
+<td>0.2275(29) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 63 </td>
+<td rowspan="2" align="center" valign="top"> Eu </td>
+<td align="right"> 151 </td>
+<td> 150.9198578(18) </td>
+<td>0.4781(6) </td>
+<td>151.964(1) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 153 </td>
+<td> 152.9212380(18) </td>
+<td>0.5219(6) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 64 </td>
+<td rowspan="7" align="center" valign="top"> Gd </td>
+<td align="right"> 152 </td>
+<td> 151.9197995(18) </td>
+<td>0.0020(1) </td>
+<td>157.25(3) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 154 </td>
+<td> 153.9208741(17) </td>
+<td>0.0218(3) </td>
+</tr>
+<tr>
+<td align="right"> 155 </td>
+<td> 154.9226305(17) </td>
+<td>0.1480(12) </td>
+</tr>
+<tr>
+<td align="right"> 156 </td>
+<td> 155.9221312(17) </td>
+<td>0.2047(9) </td>
+</tr>
+<tr>
+<td align="right"> 157 </td>
+<td> 156.9239686(17) </td>
+<td>0.1565(2) </td>
+</tr>
+<tr>
+<td align="right"> 158 </td>
+<td> 157.9241123(17) </td>
+<td>0.2484(7) </td>
+</tr>
+<tr>
+<td align="right"> 160 </td>
+<td> 159.9270624(18) </td>
+<td>0.2186(19) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 65 </td>
+<td rowspan="1" align="center" valign="top"> Tb </td>
+<td align="right"> 159 </td>
+<td> 158.9253547(19) </td>
+<td>1 </td>
+<td>158.92535(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 66 </td>
+<td rowspan="7" align="center" valign="top"> Dy </td>
+<td align="right"> 156 </td>
+<td> 155.9242847(17) </td>
+<td>0.00056(3) </td>
+<td>162.500(1) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 158 </td>
+<td> 157.9244159(31) </td>
+<td>0.00095(3) </td>
+</tr>
+<tr>
+<td align="right"> 160 </td>
+<td> 159.9252046(20) </td>
+<td>0.02329(18) </td>
+</tr>
+<tr>
+<td align="right"> 161 </td>
+<td> 160.9269405(20) </td>
+<td>0.18889(42) </td>
+</tr>
+<tr>
+<td align="right"> 162 </td>
+<td> 161.9268056(20) </td>
+<td>0.25475(36) </td>
+</tr>
+<tr>
+<td align="right"> 163 </td>
+<td> 162.9287383(20) </td>
+<td>0.24896(42) </td>
+</tr>
+<tr>
+<td align="right"> 164 </td>
+<td> 163.9291819(20) </td>
+<td>0.28260(54) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 67 </td>
+<td rowspan="1" align="center" valign="top"> Ho </td>
+<td align="right"> 165 </td>
+<td> 164.9303288(21) </td>
+<td>1 </td>
+<td>164.93033(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 68 </td>
+<td rowspan="6" align="center" valign="top"> Er </td>
+<td align="right"> 162 </td>
+<td> 161.9287884(20) </td>
+<td>0.00139(5) </td>
+<td>167.259(3) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 164 </td>
+<td> 163.9292088(20) </td>
+<td>0.01601(3) </td>
+</tr>
+<tr>
+<td align="right"> 166 </td>
+<td> 165.9302995(22) </td>
+<td>0.33503(36) </td>
+</tr>
+<tr>
+<td align="right"> 167 </td>
+<td> 166.9320546(22) </td>
+<td>0.22869(9) </td>
+</tr>
+<tr>
+<td align="right"> 168 </td>
+<td> 167.9323767(22) </td>
+<td>0.26978(18) </td>
+</tr>
+<tr>
+<td align="right"> 170 </td>
+<td> 169.9354702(26) </td>
+<td>0.14910(36) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 69 </td>
+<td rowspan="1" align="center" valign="top"> Tm </td>
+<td align="right"> 169 </td>
+<td> 168.9342179(22) </td>
+<td>1 </td>
+<td>168.93422(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 70 </td>
+<td rowspan="7" align="center" valign="top"> Yb </td>
+<td align="right"> 168 </td>
+<td> 167.9338896(22) </td>
+<td>0.00123(3) </td>
+<td>173.054(5) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 170 </td>
+<td> 169.9347664(22) </td>
+<td>0.02982(39) </td>
+</tr>
+<tr>
+<td align="right"> 171 </td>
+<td> 170.9363302(22) </td>
+<td>0.1409(14) </td>
+</tr>
+<tr>
+<td align="right"> 172 </td>
+<td> 171.9363859(22) </td>
+<td>0.2168(13) </td>
+</tr>
+<tr>
+<td align="right"> 173 </td>
+<td> 172.9382151(22) </td>
+<td>0.16103(63) </td>
+</tr>
+<tr>
+<td align="right"> 174 </td>
+<td> 173.9388664(22) </td>
+<td>0.32026(80) </td>
+</tr>
+<tr>
+<td align="right"> 176 </td>
+<td> 175.9425764(24) </td>
+<td>0.12996(83) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 71 </td>
+<td rowspan="2" align="center" valign="top"> Lu </td>
+<td align="right"> 175 </td>
+<td> 174.9407752(20) </td>
+<td>0.97401(13) </td>
+<td>174.9668(1) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 176 </td>
+<td> 175.9426897(20) </td>
+<td>0.02599(13) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 72 </td>
+<td rowspan="6" align="center" valign="top"> Hf </td>
+<td align="right"> 174 </td>
+<td> 173.9400461(28) </td>
+<td>0.0016(1) </td>
+<td>178.49(2) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 176 </td>
+<td> 175.9414076(22) </td>
+<td>0.0526(7) </td>
+</tr>
+<tr>
+<td align="right"> 177 </td>
+<td> 176.9432277(20) </td>
+<td>0.1860(9) </td>
+</tr>
+<tr>
+<td align="right"> 178 </td>
+<td> 177.9437058(20) </td>
+<td>0.2728(7) </td>
+</tr>
+<tr>
+<td align="right"> 179 </td>
+<td> 178.9458232(20) </td>
+<td>0.1362(2) </td>
+</tr>
+<tr>
+<td align="right"> 180 </td>
+<td> 179.9465570(20) </td>
+<td>0.3508(16) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 73 </td>
+<td rowspan="2" align="center" valign="top"> Ta </td>
+<td align="right"> 180 </td>
+<td> 179.9474648(24) </td>
+<td>0.0001201(32) </td>
+<td>180.94788(2) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 181 </td>
+<td> 180.9479958(20) </td>
+<td>0.9998799(32) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="5" align="right" valign="top"> 74 </td>
+<td rowspan="5" align="center" valign="top"> W </td>
+<td align="right"> 180 </td>
+<td> 179.9467108(20) </td>
+<td>0.0012(1) </td>
+<td>183.84(1) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 182 </td>
+<td> 181.94820394(91) </td>
+<td>0.2650(16) </td>
+</tr>
+<tr>
+<td align="right"> 183 </td>
+<td> 182.95022275(90) </td>
+<td>0.1431(4) </td>
+</tr>
+<tr>
+<td align="right"> 184 </td>
+<td> 183.95093092(94) </td>
+<td>0.3064(2) </td>
+</tr>
+<tr>
+<td align="right"> 186 </td>
+<td> 185.9543628(17) </td>
+<td>0.2843(19) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 75 </td>
+<td rowspan="2" align="center" valign="top"> Re </td>
+<td align="right"> 185 </td>
+<td> 184.9529545(13) </td>
+<td>0.3740(2) </td>
+<td>186.207(1) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 187 </td>
+<td> 186.9557501(16) </td>
+<td>0.6260(2) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 76 </td>
+<td rowspan="7" align="center" valign="top"> Os </td>
+<td align="right"> 184 </td>
+<td> 183.9524885(14) </td>
+<td>0.0002(1) </td>
+<td>190.23(3) </td>
+<td align="center"> g </td>
+</tr>
+<tr>
+<td align="right"> 186 </td>
+<td> 185.9538350(16) </td>
+<td>0.0159(3) </td>
+</tr>
+<tr>
+<td align="right"> 187 </td>
+<td> 186.9557474(16) </td>
+<td>0.0196(2) </td>
+</tr>
+<tr>
+<td align="right"> 188 </td>
+<td> 187.9558352(16) </td>
+<td>0.1324(8) </td>
+</tr>
+<tr>
+<td align="right"> 189 </td>
+<td> 188.9581442(17) </td>
+<td>0.1615(5) </td>
+</tr>
+<tr>
+<td align="right"> 190 </td>
+<td> 189.9584437(17) </td>
+<td>0.2626(2) </td>
+</tr>
+<tr>
+<td align="right"> 192 </td>
+<td> 191.9614770(29) </td>
+<td>0.4078(19) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 77 </td>
+<td rowspan="2" align="center" valign="top"> Ir </td>
+<td align="right"> 191 </td>
+<td> 190.9605893(21) </td>
+<td>0.373(2) </td>
+<td>192.217(3) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 193 </td>
+<td> 192.9629216(21) </td>
+<td>0.627(2) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 78 </td>
+<td rowspan="6" align="center" valign="top"> Pt </td>
+<td align="right"> 190 </td>
+<td> 189.9599297(63) </td>
+<td>0.00012(2) </td>
+<td>195.084(9) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 192 </td>
+<td> 191.9610387(32) </td>
+<td>0.00782(24) </td>
+</tr>
+<tr>
+<td align="right"> 194 </td>
+<td> 193.9626809(10) </td>
+<td>0.3286(40) </td>
+</tr>
+<tr>
+<td align="right"> 195 </td>
+<td> 194.9647917(10) </td>
+<td>0.3378(24) </td>
+</tr>
+<tr>
+<td align="right"> 196 </td>
+<td> 195.96495209(99) </td>
+<td>0.2521(34) </td>
+</tr>
+<tr>
+<td align="right"> 198 </td>
+<td> 197.9678949(23) </td>
+<td>0.07356(130) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 79 </td>
+<td rowspan="1" align="center" valign="top"> Au </td>
+<td align="right"> 197 </td>
+<td> 196.96656879(71) </td>
+<td>1 </td>
+<td>196.966569(5) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="7" align="right" valign="top"> 80 </td>
+<td rowspan="7" align="center" valign="top"> Hg </td>
+<td align="right"> 196 </td>
+<td> 195.9658326(32) </td>
+<td>0.0015(1) </td>
+<td>200.592(3) </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 198 </td>
+<td> 197.96676860(52) </td>
+<td>0.0997(20) </td>
+</tr>
+<tr>
+<td align="right"> 199 </td>
+<td> 198.96828064(46) </td>
+<td>0.1687(22) </td>
+</tr>
+<tr>
+<td align="right"> 200 </td>
+<td> 199.96832659(47) </td>
+<td>0.2310(19) </td>
+</tr>
+<tr>
+<td align="right"> 201 </td>
+<td> 200.97030284(69) </td>
+<td>0.1318(9) </td>
+</tr>
+<tr>
+<td align="right"> 202 </td>
+<td> 201.97064340(69) </td>
+<td>0.2986(26) </td>
+</tr>
+<tr>
+<td align="right"> 204 </td>
+<td> 203.97349398(53) </td>
+<td>0.0687(15) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 81 </td>
+<td rowspan="2" align="center" valign="top"> Tl </td>
+<td align="right"> 203 </td>
+<td> 202.9723446(14) </td>
+<td>0.2952(1) </td>
+<td>[204.382,204.385] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 205 </td>
+<td> 204.9744278(14) </td>
+<td>0.7048(1) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 82 </td>
+<td rowspan="4" align="center" valign="top"> Pb </td>
+<td align="right"> 204 </td>
+<td> 203.9730440(13) </td>
+<td>0.014(1) </td>
+<td>207.2(1) </td>
+<td align="center"> g,r </td>
+</tr>
+<tr>
+<td align="right"> 206 </td>
+<td> 205.9744657(13) </td>
+<td>0.241(1) </td>
+</tr>
+<tr>
+<td align="right"> 207 </td>
+<td> 206.9758973(13) </td>
+<td>0.221(1) </td>
+</tr>
+<tr>
+<td align="right"> 208 </td>
+<td> 207.9766525(13) </td>
+<td>0.524(1) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 83 </td>
+<td rowspan="1" align="center" valign="top"> Bi </td>
+<td align="right"> 209 </td>
+<td> 208.9803991(16) </td>
+<td>1 </td>
+<td>208.98040(1) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 84 </td>
+<td rowspan="2" align="center" valign="top"> Po </td>
+<td align="right"> 209 </td>
+<td> 208.9824308(20) </td>
+<td> </td>
+<td>[209] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 210 </td>
+<td> 209.9828741(13) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 85 </td>
+<td rowspan="2" align="center" valign="top"> At </td>
+<td align="right"> 210 </td>
+<td> 209.9871479(83) </td>
+<td> </td>
+<td>[210] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 211 </td>
+<td> 210.9874966(30) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="3" align="right" valign="top"> 86 </td>
+<td rowspan="3" align="center" valign="top"> Rn </td>
+<td align="right"> 211 </td>
+<td> 210.9906011(73) </td>
+<td> </td>
+<td>[222] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 220 </td>
+<td> 220.0113941(23) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 222 </td>
+<td> 222.0175782(25) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 87 </td>
+<td rowspan="1" align="center" valign="top"> Fr </td>
+<td align="right"> 223 </td>
+<td> 223.0197360(25) </td>
+<td> </td>
+<td>[223] </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 88 </td>
+<td rowspan="4" align="center" valign="top"> Ra </td>
+<td align="right"> 223 </td>
+<td> 223.0185023(27) </td>
+<td> </td>
+<td>[226] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 224 </td>
+<td> 224.0202120(23) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 226 </td>
+<td> 226.0254103(25) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 228 </td>
+<td> 228.0310707(26) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 89 </td>
+<td rowspan="1" align="center" valign="top"> Ac </td>
+<td align="right"> 227 </td>
+<td> 227.0277523(25) </td>
+<td> </td>
+<td>[227] </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 90 </td>
+<td rowspan="2" align="center" valign="top"> Th </td>
+<td align="right"> 230 </td>
+<td> 230.0331341(19) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 232 </td>
+<td> 232.0380558(21) </td>
+<td>1 </td>
+<td>232.0377(4) </td>
+<td align="center"> g </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 91 </td>
+<td rowspan="1" align="center" valign="top"> Pa </td>
+<td align="right"> 231 </td>
+<td> 231.0358842(24) </td>
+<td>1 </td>
+<td>231.03588(2) </td>
+<td align="center">  </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="5" align="right" valign="top"> 92 </td>
+<td rowspan="5" align="center" valign="top"> U </td>
+<td align="right"> 233 </td>
+<td> 233.0396355(29) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 234 </td>
+<td> 234.0409523(19) </td>
+<td>0.000054(5) </td>
+<td>238.02891(3) </td>
+<td align="center"> g,m </td>
+</tr>
+<tr>
+<td align="right"> 235 </td>
+<td> 235.0439301(19) </td>
+<td>0.007204(6) </td>
+</tr>
+<tr>
+<td align="right"> 236 </td>
+<td> 236.0455682(19) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 238 </td>
+<td> 238.0507884(20) </td>
+<td>0.992742(10) </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 93 </td>
+<td rowspan="2" align="center" valign="top"> Np </td>
+<td align="right"> 236 </td>
+<td> 236.046570(54) </td>
+<td> </td>
+<td>[237] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 237 </td>
+<td> 237.0481736(19) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 94 </td>
+<td rowspan="6" align="center" valign="top"> Pu </td>
+<td align="right"> 238 </td>
+<td> 238.0495601(19) </td>
+<td> </td>
+<td>[244] </td>
+<td align="center">  </td>
+</tr>
+<tr>
+<td align="right"> 239 </td>
+<td> 239.0521636(19) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 240 </td>
+<td> 240.0538138(19) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 241 </td>
+<td> 241.0568517(19) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 242 </td>
+<td> 242.0587428(20) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 244 </td>
+<td> 244.0642053(56) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 95 </td>
+<td rowspan="2" align="center" valign="top"> Am </td>
+<td align="right"> 241 </td>
+<td> 241.0568293(19) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 243 </td>
+<td> 243.0613813(24) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="6" align="right" valign="top"> 96 </td>
+<td rowspan="6" align="center" valign="top"> Cm </td>
+<td align="right"> 243 </td>
+<td> 243.0613893(22) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 244 </td>
+<td> 244.0627528(19) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 245 </td>
+<td> 245.0654915(22) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 246 </td>
+<td> 246.0672238(22) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 247 </td>
+<td> 247.0703541(47) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 248 </td>
+<td> 248.0723499(56) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 97 </td>
+<td rowspan="2" align="center" valign="top"> Bk </td>
+<td align="right"> 247 </td>
+<td> 247.0703073(59) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 249 </td>
+<td> 249.0749877(27) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="4" align="right" valign="top"> 98 </td>
+<td rowspan="4" align="center" valign="top"> Cf </td>
+<td align="right"> 249 </td>
+<td> 249.0748539(23) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 250 </td>
+<td> 250.0764062(22) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 251 </td>
+<td> 251.0795886(48) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 252 </td>
+<td> 252.0816272(56) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 99 </td>
+<td rowspan="1" align="center" valign="top"> Es </td>
+<td align="right"> 252 </td>
+<td> 252.082980(54) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 100 </td>
+<td rowspan="1" align="center" valign="top"> Fm </td>
+<td align="right"> 257 </td>
+<td> 257.0951061(69) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="2" align="right" valign="top"> 101 </td>
+<td rowspan="2" align="center" valign="top"> Md </td>
+<td align="right"> 258 </td>
+<td> 258.0984315(50) </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"> 260 </td>
+<td> 260.10365(34#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 102 </td>
+<td rowspan="1" align="center" valign="top"> No </td>
+<td align="right"> 259 </td>
+<td> 259.10103(11#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 103 </td>
+<td rowspan="1" align="center" valign="top"> Lr </td>
+<td align="right"> 262 </td>
+<td> 262.10961(22#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 104 </td>
+<td rowspan="1" align="center" valign="top"> Rf </td>
+<td align="right"> 267 </td>
+<td> 267.12179(62#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 105 </td>
+<td rowspan="1" align="center" valign="top"> Db </td>
+<td align="right"> 268 </td>
+<td> 268.12567(57#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 106 </td>
+<td rowspan="1" align="center" valign="top"> Sg </td>
+<td align="right"> 271 </td>
+<td> 271.13393(63#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 107 </td>
+<td rowspan="1" align="center" valign="top"> Bh </td>
+<td align="right"> 272 </td>
+<td> 272.13826(58#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 108 </td>
+<td rowspan="1" align="center" valign="top"> Hs </td>
+<td align="right"> 270 </td>
+<td> 270.13429(27#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 109 </td>
+<td rowspan="1" align="center" valign="top"> Mt </td>
+<td align="right"> 276 </td>
+<td> 276.15159(59#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 110 </td>
+<td rowspan="1" align="center" valign="top"> Ds </td>
+<td align="right"> 281 </td>
+<td> 281.16451(59#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 111 </td>
+<td rowspan="1" align="center" valign="top"> Rg </td>
+<td align="right"> 280 </td>
+<td> 280.16514(61#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 112 </td>
+<td rowspan="1" align="center" valign="top"> Cn </td>
+<td align="right"> 285 </td>
+<td> 285.17712(60#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 113 </td>
+<td rowspan="1" align="center" valign="top"> Uut </td>
+<td align="right"> 284 </td>
+<td> 284.17873(62#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 114 </td>
+<td rowspan="1" align="center" valign="top"> Fl </td>
+<td align="right"> 289 </td>
+<td> 289.19042(60#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 115 </td>
+<td rowspan="1" align="center" valign="top"> Uup </td>
+<td align="right"> 288 </td>
+<td> 288.19274(62#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 116 </td>
+<td rowspan="1" align="center" valign="top"> Lv </td>
+<td align="right"> 293 </td>
+<td> 293.20449(60#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 117 </td>
+<td rowspan="1" align="center" valign="top"> Uus </td>
+<td align="right"> 292 </td>
+<td> 292.20746(75#) </td>
+<td> </td>
+</tr>
+<tr><td colspan="9"><hr color="#3377EE" size="1"></td></tr>
+<tr>
+<td rowspan="1" align="right" valign="top"> 118 </td>
+<td rowspan="1" align="center" valign="top"> Uuo </td>
+<td align="right"> 294 </td>
+<td> 294.21392(71#) </td>
+<td> </td>
+</tr>
+<tr></tr>
+</tbody><tfoot>
+<tr bgcolor="#3377EE"><td colspan="9"><img src="/Images/dot_t.gif" alt="" height="2"></td></tr>
+</tfoot></table>
+<br>
+<map name="NIST-PL">
+      <area shape="rect" coords="0,0,1,1" href="#start" alt="[skip navigation]">
+      <area shape="rect" coords="1,1,135,48" href="http://www.nist.gov" alt="National Institute of Standards and Technology">
+      <area shape="rect" coords="1,50,135,67" href="/" alt="NIST Physical Measurement Laboratory">
+      </map><img src="/Images/But/nist-pl-black.gif" usemap="#NIST-PL" alt="NIST Physical Measurement Laboratory" height="68" border="0" width="136"><a href="/PhysRefData/Compositions/index.html" onmouseover="img_act('Comp_Main');window.status='Press the button to go to the Atomic Weights and Isotopic Compositions Main Page';return true" onmouseout="img_inact('Comp_Main');window.status='';return true"><img src="/PhysRefData/Compositions/main.gif" alt="Atomic Weights and Isotopic Compositions Main Page" name="Comp_Main" height="45" border="0" width="189"></a>
+</center>
+
+
+
+</body></html>
