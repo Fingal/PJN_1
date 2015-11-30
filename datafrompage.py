@@ -22,8 +22,8 @@ def process_date(date_):
 
 links=open('links.txt').readlines()
 bad_counter=0
-start=8000
-stop=10000
+start=9971
+stop=9973
 try:
     for i,link in zip(range(stop-start),links[start:stop+1]):
         url=link.rstrip()

@@ -1,0 +1,164 @@
+<div class="post-text" itemprop="text">
+<h1>JavaScript Closures for Dummies</h1>
+<blockquote>Submitted by Morris on Tue, 2006-02-21 10:19. Community-edited since.</blockquote>
+<h2>Closures Are Not Magic</h2>
+<p>This page explains closures so that a programmer can understand them — using working JavaScript code. It is not for gurus or functional programmers.</p>
+<p>Closures are <em>not hard</em> to understand once the core concept is grokked. However, they are impossible to understand by reading any academic papers or academically oriented information about them!</p>
+<p>This article is intended for programmers with some programming experience in a mainstream language, and who can read the following JavaScript function:</p>
+<pre><code>function sayHello(name) {
+    var text = 'Hello ' + name;
+    var sayAlert = function() { alert(text); }
+    sayAlert();
+}
+</code></pre>
+<h2>An Example of a Closure</h2>
+<p>Two one sentence summaries:</p>
+<ul>
+<li>a closure is the local variables for a function — kept alive <em>after</em> the function has returned, or</li>
+<li>a closure is a stack-frame which is <em>not deallocated</em> when the function returns (as if a 'stack-frame' were malloc'ed instead of being on the stack!).</li>
+</ul>
+<p>The following code returns a reference to a function:</p>
+<pre><code>function sayHello2(name) {
+    var text = 'Hello ' + name; // Local variable
+    var sayAlert = function() { alert(text); }
+    return sayAlert;
+}
+var say2 = sayHello2('Bob');
+say2(); // alerts "Hello Bob"
+</code></pre>
+<p>Most JavaScript programmers will understand how a reference to a function is returned to a variable (<code>say2</code>) in the above code. If you don't, then you need to before you can learn closures. A C programmer would think of the function as returning a pointer to a function, and that the variables <code>sayAlert</code> and <code>say2</code> were each a pointer to a function.</p>
+<p>There is a critical difference between a C pointer to a function and a JavaScript reference to a function. In JavaScript, you can think of a function reference variable as having both a pointer to a function <em>as well</em> as a hidden pointer to a closure.</p>
+<p>The above code has a closure because the anonymous function <code>function() { alert(text); }</code> is declared <em>inside</em> another function, <code>sayHello2()</code> in this example. In JavaScript, if you use the <code>function</code> keyword inside another function, you are creating a closure.</p>
+<p>In C, and most other common languages <em>after</em> a function returns, all the local variables are no longer accessible because the stack-frame is destroyed.</p>
+<p>In JavaScript, if you declare a function within another function, then the local variables can remain accessible after returning from the function you called. This is demonstrated above, because we call the function <code>say2()</code> after we have returned from <code>sayHello2()</code>. Notice that the code that we call references the variable <code>text</code>, which was a <em>local variable</em> of the function <code>sayHello2()</code>.</p>
+<pre><code>function() { alert(text); } // Output of say2.toString();
+</code></pre>
+<p>Looking at the output of <code>say2.toString()</code>, we can see that the code refers to the variable <code>text</code>. The anonymous function can reference <code>text</code> which holds the value <code>'Bob'</code> because the local variables of <code>sayHello2()</code> are kept in a closure.</p>
+<p>The magic is that in JavaScript a function reference also has a secret reference to the closure it was created in — similar to how delegates are a method pointer plus a secret reference to an object.</p>
+<h2>More examples</h2>
+<p>For some reason, closures seem really hard to understand when you read about them, but when you see some examples you can click to how they work (it took me a while).
+I recommend working through the examples carefully until you understand how they work. If you start using closures without fully understanding how they work, you would soon create some very weird bugs!</p>
+<h3>Example 3</h3>
+<p>This example shows that the local variables are not copied — they are kept by reference. It is kind of like keeping a stack-frame in memory when the outer function exits!</p>
+<pre><code>function say667() {
+    // Local variable that ends up within closure
+    var num = 666;
+    var sayAlert = function() { alert(num); }
+    num++;
+    return sayAlert;
+}
+var sayNumber = say667();
+sayNumber(); // alerts 667
+</code></pre>
+<h3>Example 4</h3>
+<p>All three global functions have a common reference to the <em>same</em> closure because they are all declared within a single call to <code>setupSomeGlobals()</code>.</p>
+<pre><code>function setupSomeGlobals() {
+    // Local variable that ends up within closure
+    var num = 666;
+    // Store some references to functions as global variables
+    gAlertNumber = function() { alert(num); }
+    gIncreaseNumber = function() { num++; }
+    gSetNumber = function(x) { num = x; }
+}
+
+setupSomeGlobals();
+gIncreaseNumber();
+gAlertNumber(); // 667
+gSetNumber(5);
+gAlertNumber(); // 5
+
+var oldAlert = gAlertNumber;
+
+setupSomeGlobals();
+gAlertNumber(); // 666
+
+oldAlert() // 5
+</code></pre>
+<p>The three functions have shared access to the same closure — the local variables of <code>setupSomeGlobals()</code> when the three functions were defined.</p>
+<p>Note that in the above example, if you call <code>setupSomeGlobals()</code> again, then a new closure (stack-frame!) is created. The old <code>gAlertNumber</code>, <code>gIncreaseNumber</code>, <code>gSetNumber</code> variables are overwritten with <em>new</em> functions that have the new closure. (In JavaScript, whenever you declare a function inside another function, the inside function(s) is/are recreated again <em>each</em> time the outside function is called.)</p>
+<h3>Example 5</h3>
+<p>This one is a real gotcha for many people, so you need to understand it. Be very careful if you are defining a function within a loop: the local variables from the closure do not act as you might first think.</p>
+<pre><code>function buildList(list) {
+    var result = [];
+    for (var i = 0; i &lt; list.length; i++) {
+        var item = 'item' + i;
+        result.push( function() {alert(item + ' ' + list[i])} );
+    }
+    return result;
+}
+
+function testList() {
+    var fnlist = buildList([1,2,3]);
+    // Using j only to help prevent confusion -- could use i.
+    for (var j = 0; j &lt; fnlist.length; j++) {
+        fnlist[j]();
+    }
+}
+</code></pre>
+<p>The line <code>result.push( function() {alert(item + ' ' + list[i])}</code> adds a reference to an anonymous function three times to the result array. If you are not so familiar with anonymous functions think of it like:</p>
+<pre><code>pointer = function() {alert(item + ' ' + list[i])};
+result.push(pointer);
+</code></pre>
+<p>Note that when you run the example, <code>"item2 undefined"</code> is alerted three times! This is because just like previous examples, there is only one closure for the local variables for <code>buildList</code>. When the anonymous functions are called on the line <code>fnlist[j]()</code>; they all use the same single closure, and they use the current value for <code>i</code> and <code>item</code> within that one closure (where <code>i</code> has a value of <code>3</code> because the loop had completed, and <code>item</code> has a value of <code>'item2'</code>). Note we are indexing from 0 hence <code>item</code> has a value of <code>item2</code>. And the i++ will increment <code>i</code> to the value <code>3</code>.</p>
+<h3>Example 6</h3>
+<p>This example shows that the closure contains any local variables that were declared inside the outer function before it exited. Note that the variable <code>alice</code> is actually declared after the anonymous function. The anonymous function is declared first; and when that function is called it can access the <code>alice</code> variable because <code>alice</code> is in the same scope (JavaScript does <a href="http://stackoverflow.com/a/3725763/1269037">variable hoisting</a>).
+Also <code>sayAlice()()</code> just directly calls the function reference returned from <code>sayAlice()</code> — it is exactly the same as what was done previously, but without the temporary variable.</p>
+<pre><code>function sayAlice() {
+    var sayAlert = function() { alert(alice); }
+    // Local variable that ends up within closure
+    var alice = 'Hello Alice';
+    return sayAlert;
+}
+sayAlice()();
+</code></pre>
+<p>Tricky: note also that the <code>sayAlert</code> variable is also inside the closure, and could be accessed by any other function that might be declared within <code>sayAlice()</code>, or it could be accessed recursively within the inside function.</p>
+<h3>Example 7</h3>
+<p>This final example shows that each call creates a separate closure for the local variables. There is <em>not</em> a single closure per function declaration. There is a closure for <em>each call</em> to a function.</p>
+<pre><code>function newClosure(someNum, someRef) {
+    // Local variables that end up within closure
+    var num = someNum;
+    var anArray = [1,2,3];
+    var ref = someRef;
+    return function(x) {
+        num += x;
+        anArray.push(num);
+        alert('num: ' + num +
+            '\nanArray ' + anArray.toString() +
+            '\nref.someVar ' + ref.someVar);
+      }
+}
+obj = {someVar: 4};
+fn1 = newClosure(4, obj);
+fn2 = newClosure(5, obj);
+fn1(1); // num: 5; anArray: 1,2,3,5; ref.someVar: 4;
+fn2(1); // num: 6; anArray: 1,2,3,6; ref.someVar: 4;
+obj.someVar++;
+fn1(2); // num: 7; anArray: 1,2,3,5,7; ref.someVar: 5;
+fn2(2); // num: 8; anArray: 1,2,3,6,8; ref.someVar: 5;
+</code></pre>
+<h2>Summary</h2>
+<p>If everything seems completely unclear then the best thing to do is to play with the examples. Reading an explanation is much harder than understanding examples.
+My explanations of closures and stack-frames, etc. are not technically correct — they are gross simplifications intended to help understanding. Once the basic idea is grokked, you can pick up the details later.</p>
+<h2>Final points:</h2>
+<ul>
+<li>Whenever you use <code>function</code> inside another function, a closure is used.</li>
+<li>Whenever you use <code>eval()</code> inside a function, a closure is used. The text you <code>eval</code> can reference local variables of the function, and within <code>eval</code> you can even create new local variables by using <code>eval('var foo = …')</code></li>
+<li>When you use <code>new Function(…)</code> (the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function">Function constructor</a>) inside a function, it does not create a closure. (The new function cannot reference the local variables of the outer function.)</li>
+<li>A closure in JavaScript is like keeping a copy of all the local variables, just as they were when a function exited.</li>
+<li>It is probably best to think that a closure is always created just on entry to a function, and the local variables are added to that closure.</li>
+<li>A new set of local variables is kept every time a function with a closure is called (given that the function contains a function declaration inside it, and a reference to that inside function is either returned or an external reference is kept for it in some way).</li>
+<li>Two functions might look like they have the same source text, but have completely different behaviour because of their 'hidden' closure. I don't think JavaScript code can actually find out if a function reference has a closure or not.</li>
+<li>If you are trying to do any dynamic source code modifications (for example: <code>myFunction = Function(myFunction.toString().replace(/Hello/,'Hola'));</code>), it won't work if <code>myFunction</code> is a closure (of course, you would never even think of doing source code string substitution at runtime, but...).</li>
+<li>It is possible to get function declarations within function declarations within functions — and you can get closures at more than one level.</li>
+<li>I think normally a closure is the term for both the function along with the variables that are captured. Note that I do not use that definition in this article!</li>
+<li>I suspect that closures in JavaScript differ from those normally found in functional languages.</li>
+</ul>
+<h2>Links</h2>
+<ul>
+<li><a href="http://trimpath.com/project/wiki/TrimBreakpoint">TrimBreakpoint</a> is a tricky use of closures to let you inspect local variables for a function from a popup breakpoint window.</li>
+<li>Douglas Crockford's simulated <a href="http://www.crockford.com/javascript/private.html">private attributes and private methods</a> for an object, using closures.</li>
+<li>A great explanation of how closures can <a href="http://www.codeproject.com/jscript/LeakPatterns.asp">cause memory leaks in IE</a> if you are not careful.</li>
+</ul>
+<h2>Thanks</h2>
+<p>If you have <em>just</em> learnt closures (here or elsewhere!), then I am interested in any feedback from you about any changes you might suggest that could make this article clearer. Send an email to morrisjohns.com (morris_closure @). Please note that I am not a guru on JavaScript — nor on closures.</p>
+</div>
